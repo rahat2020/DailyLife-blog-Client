@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import Home from './pages/Home/Home';
-import Topbar from './components/Topbar/Topbar';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,6 +14,7 @@ import { Context } from './Context/Context';
 import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Navbar from './components/Navbar/Navbar';
 
 export default function App() {
 
@@ -22,7 +22,7 @@ export default function App() {
   // const user = false;
   return (
     <Router>
-      <Topbar />
+      <Navbar/>
       <Switch>
         <Route exact path="/">
           <Home />

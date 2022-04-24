@@ -1,0 +1,49 @@
+.OtherBlogs{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.box-container{
+    position: relative;
+    margin: 10px;
+}
+.img{
+    width:100%;
+    height: 450px;
+    border-radius: 10px;
+    transition: all .3s ease;
+    object-fit: covers;
+    border: 0.5px solid #8888885b;
+    box-shadow: 1px 5px 25px 15px #faf5f5bf;
+-webkit-box-shadow: 1px 5px 25px 15px #faf5f5bf;
+-moz-box-shadow: 1px 5px 25px 15px #faf5f5bf;
+}
+.img-container:hover .img{
+    transform:scale(1.04)
+}
+.overlay{
+    position: absolute;
+    top: 10.2em;
+    background-color: #ffffff57;
+    padding: 20px;
+}
+
+.otherTitle{
+    font-size:1.4em;
+    font-weight: 500;
+    color: #000000d7;
+    letter-spacing:1px;
+}
+.otherAuthor{
+    font-weight: 500;
+    letter-spacing:1px;
+    color: #373030d7;
+}
+.paragraph{
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: #373030d7;
+}

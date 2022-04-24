@@ -1,0 +1,18 @@
+.navbar-style{
+    padding: 20px;
+    background-color: #e7e4e43a;
+}
+.ul-item{
+    font-size: 1.12em;
+    letter-spacing:1px;
+}
+.ul-item:hover{
+    color: blue;
+}
+#active{
+    background-color: #2eceffb4;
+
+}
+#activeColor{
+    color: #fff;
+}

@@ -77,7 +77,7 @@ fieldset {
   padding-bottom: 0.7rem;
 }
 
-textarea, #message {
+ #message {
   width: 100%;
   color: #fff;
   overflow: visible;

@@ -1,13 +1,29 @@
 .new_footer_area {
     background: #fbfbfd;
+    padding: 2em;
 }
 
 /* coloumn style */
 .subsInput{
     border: .2em solid #b3aeae4d;
-    padding: 5px;
+    padding: 0.30em;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+.btnSubscribe{
+  padding: 0.50rem;
+  border-radius: 0.25rem;
+  outline: none;
+  margin-left: 0.5rem;
+  border: 1px solid #2eceffc2;
+  background-color: #2eceffda;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.btnSubscribe:hover{
+  background: transparent;
+  color: #2eceffde;
 }
 
 .para{
@@ -43,7 +59,8 @@
     font-weight: 300;
     line-height: 20px;
     color: #7f88a6;
-    padding: 27px 0px;
+    padding: 2em;
+    border: 1px solid red;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;
@@ -85,6 +102,21 @@ h5 {
   color: #3434ffc9;
   border: none;
   transform: scale(1.1);
+}
+
+.footer-para-one{
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+.footer-para-two{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  margin-top: 14px;
+}
+.footer-para-two a {
+  text-decoration: none;
 }
 /*************footer End*****************/
 

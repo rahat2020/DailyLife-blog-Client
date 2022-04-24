@@ -5,10 +5,10 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.329),
         rgba(255, 255, 255, 0.5)
       ),
-      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      url("https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
     background-size: cover;
   }
   

@@ -14,7 +14,6 @@ export default function Topbar() {
 
         <div className="topbar">
             <div className="topLeft">
-              
                 <input className="search" type="text" placeholder="search" />
             </div>
             <div className="topCenter">
@@ -24,7 +23,10 @@ export default function Topbar() {
                     </li>
                     <li className="topListItem"><Link className="link" to="/about"> ABOUT</Link></li>
                     <li className="topListItem"><Link className="link" to="/contact"> CONTACT</Link></li>
-                    <li className="topListItem"><Link className="link" to="/write"> WRITE</Link></li>
+                    <li className="topListItem"><Link className="link" to="/write">
+                    {
+                        user ? "WRITE" : ""
+                    }</Link></li>
                     <li className="topListItem" onClick={handleLogout}>
                         {
                             user && "LOGOUT"

@@ -37,7 +37,7 @@ function Login() {
   };
   console.log(user, isFetching)
   return (
-    <div className="login">
+    <div className="login mb-4">
       <span className="loginTitle">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>

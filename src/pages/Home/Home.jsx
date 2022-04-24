@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from '../../components/Header/Header';
+import OtherBlogs from '../../components/OtherBlogs/OtherBlogs';
 import Posts from '../../components/Posts/Posts';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import './Home.css';
@@ -22,6 +23,7 @@ export default function Home() {
         <Posts posts={posts}/>
         <Sidebar />
       </div>
+      <OtherBlogs/>
     </>
   )
 }
