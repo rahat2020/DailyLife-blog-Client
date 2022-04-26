@@ -7,7 +7,7 @@ function Footer() {
     <footer class="new_footer_area bg_color">
       <div class="new_footer_top">
         <div class="">
-          <div class="row">
+          <div class="row ">
             <div className="col-md-4">
               <h5 className="titleOne">Get in touch</h5>
               <p className="para">

@@ -8,22 +8,28 @@ import './Home.css';
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
-  const {search} = useLocation();
+  const { search } = useLocation();
   // console.log(location); 
   useEffect(() => {
     const url = 'http://localhost:5000/api/posts'
-    fetch(url+search)
-    .then(res => res.json())
-    .then(data =>setPosts(data))
+    fetch(url + search)
+      .then(res => res.json())
+      .then(data => setPosts(data))
   }, [search])
   return (
     <>
       <Header />
       <div className="home">
-        <Posts posts={posts}/>
-        <Sidebar />
+        <div className="row">
+          <div className="col-md-9">
+            <Posts posts={posts} />
+          </div>
+          <div className="col-md-3">
+            <Sidebar />
+          </div>
+        </div>
       </div>
-      <OtherBlogs/>
+      <OtherBlogs />
     </>
   )
 }

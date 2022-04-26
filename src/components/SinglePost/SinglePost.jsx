@@ -57,8 +57,9 @@ function SinglePost() {
       console.log(err)
     }
   };
+
   return (
-    <div className="singlePost">
+    <div className="singlePost col-md-9">
       <div className="singlePostWrapper">
         <img
           className="singlePostImg"

@@ -1,11 +1,19 @@
 .navbar-style{
-    padding: 20px;
-    background-color: #e7e4e43a;
+    padding: 10px;
+    background-color: #f7f1f1ec;
 }
 .ul-item{
     font-size: 1.12em;
     letter-spacing:1px;
 }
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
 .ul-item:hover{
     color: blue;
 }

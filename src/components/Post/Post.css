@@ -1,8 +1,79 @@
-.post {
-  width: 385px;
-  margin: 0px 25px 40px 25px;
+.card-wdth{
+  width: 320px;
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 5px 25px 15px #faf5f500;
+  -webkit-box-shadow: 1px 5px 25px 15px #faf5f5bf;
+  -moz-box-shadow: 1px 5px 25px 15px #faf5f5bf;
+}
+.card-wdth:hover{
+  transform: scale(1.02)
+}
+.image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  color: #444444;
+  font-size: 1.2em;
+}
+.postTitle{
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-weight: 900;
+  cursor: pointer;
+  color: #2eceffd7;
+}
+.psotAuthor{
+  color: #444444bb;
+  font-size: .8em;
+  letter-spacing:2px;
+  margin-top: 10px;
+}
+.postDate{
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+}
+.postCat{
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.image .postImg{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 0px;
+}
+
+.postDesc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (max-width: 468px){
+  
+}
+/* .post {
+  width: 250px;
+  margin: 0px 25px 40px 25px;
 }
 
 .postImg {
@@ -28,7 +99,6 @@
   color: #be9656;
   line-height: 19px;
   margin-top: 15px;
-  /* margin-right: 10px; */
   cursor: pointer;
 }
 
@@ -36,7 +106,6 @@
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 900;
-  /* margin-top: 15px; */
   cursor: pointer;
 }
 
@@ -46,7 +115,6 @@
   font-size: 13px;
   font-weight: 400;
   color: #999999;
-  /* margin-top: 15px; */
 }
 
 .postDesc {
@@ -61,4 +129,4 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-}
+} */
