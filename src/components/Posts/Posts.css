@@ -1,3 +1,7 @@
+.post-column{
+    margin-top: 1.34em;
+    margin-bottom: 1.22em;
+}
 @media only screen and (max-width: 468px) {
     .post-column{
         display: flex;

@@ -15,6 +15,7 @@ import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
+import OtherSinglePost from './pages/OtherSinglePost/OtherSinglePost';
 
 export default function App() {
 
@@ -29,6 +30,9 @@ export default function App() {
         </Route>
         <Route exact path="/post/:postId">
           <Single />
+        </Route>
+        <Route exact path="/otherPost/:blogId">
+          <OtherSinglePost/>
         </Route>
         <Route exact path="/write">
           {

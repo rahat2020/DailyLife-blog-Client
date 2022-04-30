@@ -1,0 +1,15 @@
+.like-colour{
+    font-size:1.37em;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    margin-right: 20px;
+    color: #928f8fd0;
+}
+.like-count{
+    font-size: 1.23em;
+    margin-right: 3em;
+}
+#liked-btn{
+    color: red;
+}

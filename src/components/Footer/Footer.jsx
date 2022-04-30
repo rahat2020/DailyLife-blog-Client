@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer class="new_footer_area bg_color">
+    <footer data-aos="fade-up" class="new_footer_area bg_color">
       <div class="new_footer_top">
         <div class="">
           <div class="row ">

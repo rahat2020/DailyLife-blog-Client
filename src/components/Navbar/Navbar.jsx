@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [color, setColor] = useState(false)
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
   const { user, dispatch } = useContext(Context);
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link className="nav-link active ul-item" aria-current="page" onClick={handleLogout}>{user && "LOGOUT"}</Link>
+                <Link id={color ? "activeColor" : ""} className="nav-link active ul-item" aria-current="page" onClick={handleLogout}>{user && "LOGOUT"}</Link>
               </li>
               <li class="nav-item">
 

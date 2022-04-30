@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./OtherBlogs.css";
 import PostData from "../../Data/Data";
+import { Link } from 'react-router-dom';
 
 const OtherBlogs = () => {
   const [post, setPost] = useState([]);
@@ -9,7 +10,7 @@ const OtherBlogs = () => {
     setPost(PostData);
   }, [post]);
   return (
-    <div className="OtherBlogs" >
+    <div data-aos="fade-up" className="OtherBlogs" >
       <div className="row">
         {post.map((item, index) => (
           <div className="col-md-3 d-flex justify-content-center align-items-center" style={{ maxWidth: "400px" }}>
@@ -24,7 +25,9 @@ const OtherBlogs = () => {
                   <span className="otherAuthor"><i class="fa-solid fa-hand-point-right"></i>  {item.author}</span>
                 </div>
                 <p className="paragraph">{item.dsc}</p>
-                <button className="btn btn-warning">Read more</button>
+                <Link to={`/otherPost/${item.id}`}>
+                  <button className="btn btn-warning">Read more</button>
+                </Link>
               </div>
             </div>
           </div>

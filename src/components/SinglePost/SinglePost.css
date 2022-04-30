@@ -2,8 +2,8 @@
   .singlePostWrapper {
     padding: 20px;
     padding-right: 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   }
   
   .singlePostImg {
@@ -94,3 +94,13 @@
     align-self: flex-end;
     margin-top: 20px;
   }
+
+  /* @media only screen and (mix-width: 468px){
+      .singlePost{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+      }
+  } */

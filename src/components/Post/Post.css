@@ -12,7 +12,7 @@
   -moz-box-shadow: 1px 5px 25px 15px #faf5f5bf;
 }
 .card-wdth:hover{
-  transform: scale(1.02)
+  transform: scale(1.02) !important;
 }
 .image{
   width: 100%;

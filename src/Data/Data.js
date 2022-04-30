@@ -1,4 +1,4 @@
-const Postdate = 
+const PostData = 
 [
     {
         id:1,
@@ -34,6 +34,38 @@ const Postdate =
         author: "kazi Rahat",
         date: "17th April 2022"
     },
+    {
+        id:5,
+        title: "Benifits of doing Physical exercise",
+        img: "https://images.pexels.com/photos/2827400/pexels-photo-2827400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        dsc:"To stay healthy, the UK Chief Medical Officers' Physical Activity Guidelines, on GOV.UK, state that adults should try to be active every day and aim to do at least 150 minutes of physical activity over a week, through a variety of activities.  For most people, the easiest way to get moving is to make activity part of everyday life, like walking for health or cycling instead of using the car to get around. However, the more you do, the better, and taking part in activities such as sports and exercise will make you even healthier.  For any type of activity to benefit your health, you need to be moving quick enough to raise your heart rate, breathe faster and feel warmer. This level of effort is called moderate intensity activity. If you're working at a moderate intensity you should still be able to talk but you won't be able to sing the words to a song. An activity where you have to work even harder is called vigorous intensity activity. There is substantial evidence that vigorous activity can bring health benefits over and above that of moderate activity. You can tell when it's vigorous activity because you're breathing hard and fast, and your heart rate has gone up quite a bit. If you're working at this level, you won't be able to say more than a few words without pausing for a breath.",
+        author: "Athar ali",
+        date: "27th April 2022"
+    },
+    {
+        id:6,
+        title: "What is a Standard of Living",
+        img: "https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        dsc:"Standard of living refers to the degree of wealth and material comfort available to a person or community. It includes factors like income, economic opportunity, GDP (gross domestic product), and life expectancy. Basically, it measures the material aspects of society. Furthermore, we can use the standard of living to compare two different geographical areas or distinct points in time. For instance, we can compare the standard of living in Australia and India; similarly, we can measure the standard of living in contemporary France, comparing it to the standard of living a century ago.If we look at the standard of living all over the world, we can observe that standards of living in developed countries like the UK and US are higher than that of developing countries.  Furthermore, economists often use GDP per capita to measure the standard of living. This is a country’s gross domestic product divided by its population. The United Nations’ Human Development Index (HDI) is another measure of standard of living. This measure is based on various factors like education, life expectancy at birth, and income per capita.",
+        author: "Alex hales",
+        date: "20th April 2022"
+    },
+    {
+        id:7,
+        title: "What is Relationship Management",
+        img: "https://images.pexels.com/photos/1019771/pexels-photo-1019771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        dsc:"Relationship management is a strategy in which an organization maintains an ongoing level of engagement with its audience. This management can occur between a business and its customers (business to consumer [B2C]) or between a business and other businesses (business to business [B2B]). Relationship management aims to create a partnership between an organization and its patrons, instead of viewing the relationship as merely transactional. Relationship management involves strategies to build client support for a business and its offerings, and increase brand loyalty. Most often, relationship building occurs at the customer level, but it is valuable between businesses as well. A business may hire a relationship manager to oversee relationship building or it may combine this function with another marketing or human-resources role. Building a relationship with clients yields rewards for all parties. Consumers who feel that a company is responsive to their needs likely will continue to use that company's products and services.",
+        author: "Dr. Ayub ali",
+        date: "24th May 2022"
+    },
+    {
+        id:8,
+        title: "How do drugs work in the body?",
+        img: "https://images.pexels.com/photos/3683041/pexels-photo-3683041.jpeg?auto=compress&cs=tinysrgb&w=600",
+        dsc:"Americans spend an average of almost $1,000 each year on pharmaceuticals ranging from pain medications to antibiotics. But have you ever wondered how those pills know where to go once they're in our bodies? “Actually, they don't,” said Oklahoma Medical Research Foundation President Dr. Stephen Prescott. “Drugs have no idea where to go when you take them.”Luckily, your body has a system that is smart enough to get medicines exactly where they're needed. When you swallow a pill, it travels through the stomach and small intestine into the liver, which breaks it down and releases the remnants into the blood stream. “All organs and tissues in the body will be supplied with blood, and the medication goes along for the ride,” Prescott said.Even though drugs travel in the blood throughout our body, Prescott said, each drug is designed to target certain protein molecules called receptors. In the case of a pain medication like ibuprofen or acetaminophen, they search out specific receptors generated by pain and inflammation as they course through the blood stream.  “Think of it like a lock and key,” said Prescott, a physician and medical researcher whose work focuses on blood vessels and circulation. “The medicine is like the key, and it looks throughout the body until it finds the lock where it fits.”",
+        author:"The Oklahoman",
+        date: "24th May 2022"
+    },
   
 ]
-export default Postdate;
+export default PostData;

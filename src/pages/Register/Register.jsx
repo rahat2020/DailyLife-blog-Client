@@ -12,7 +12,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try{
-            const res = await axios.post("http://localhost:5000/api/auth/register", {
+            const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/auth/register", {
                 username,
                 email,
                 password,
@@ -35,7 +35,7 @@ function Register() {
       
     }
     return (
-        <div className="register mb-4">
+        <div className="register mt-5">
             <span className="registerTitle">Register</span>
             <form className="registerForm" onSubmit={handleSubmit}>
                 <label>Username</label>

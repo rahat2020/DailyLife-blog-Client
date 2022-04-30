@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", {
+      const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
@@ -37,7 +37,7 @@ function Login() {
   };
   console.log(user, isFetching)
   return (
-    <div className="login mb-4">
+    <div className="login mt-5">
       <span className="loginTitle">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>

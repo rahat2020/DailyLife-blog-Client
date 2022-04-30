@@ -1,11 +1,19 @@
 import { Link } from "react-router-dom";
 import "./Post.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Post({ img, post }) {
-  const PF = "http://localhost:5000/images/";
+  useEffect(() => {
+    AOS.init({ offset: 120, duration: 2000 });
+})
+  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
+
+
   return (
     <Link to={`/post/${post._id}`} style={{textDecoration: 'none', color:"gray"}}>
-      <div className="card card-wdth" style={{ borderRadius: "10px" }}>
+      <div data-aos="fade-up" className="card card-wdth" style={{ borderRadius: "10px" }}>
         <div className="image">
           {
             post.photo ?

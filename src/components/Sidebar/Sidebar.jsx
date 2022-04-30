@@ -11,8 +11,8 @@ export default function Sidebar() {
       .then(res => res.json())
       .then(data => setCat(data))
   }, [])
-  return (
-    <div className="sidebar">
+  return ( 
+    <div data-aos="fade-up" className="sidebar mt-4 pt-5">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT US</span>
         <img

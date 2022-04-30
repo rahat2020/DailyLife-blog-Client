@@ -4,7 +4,7 @@ import rahat from '../../img/rahat.png';
 
 export default function Header() {
   return (
-    <div className="header">
+    <div data-aos="fade-up" className="header">
       <h3 className="text-center mb-4 mt-5">Trending </h3>
       <div id="carouselExampleControls" class="carousel slide panda-pic mt-3 " data-bs-ride="carousel">
         <div class="carousel-inner">

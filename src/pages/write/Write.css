@@ -70,3 +70,19 @@
     display: flex;
     align-items: center;
   }
+
+  @media only screen and (max-width: 468px){
+    .writeForm{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .writeFormGroup{
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+  }
