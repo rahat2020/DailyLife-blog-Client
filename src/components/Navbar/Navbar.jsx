@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../Context/Context";
 import './Navbar.css';
+import logo from '../../img/logo.png'
 
 const Navbar = () => {
   const [color, setColor] = useState(false)
@@ -26,7 +27,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light navbar-style fixed-top" id={color ? "active" : ""}>
         <div className="container-fluid">
           <Link id={color ? "activeColor" : ""} to="/" className="navbar-brand logo">
-            DailyBlog
+            <img src={logo} alt="" className="logo-img"/>
           </Link>
           <button
             className="navbar-toggler"

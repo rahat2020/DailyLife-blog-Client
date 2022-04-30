@@ -2,6 +2,18 @@
     padding: 10px;
     background-color: #f1fcffe5;
 }
+.logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.logo .logo-img{
+    width:40%;
+    width: 20%;
+    object-fit: cover;
+}
 .ul-item{
     font-size: 1.12em;
     letter-spacing:1px;
