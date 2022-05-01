@@ -7,14 +7,20 @@ const INITIAL_STATE = {
     error: false,
 }
 
+
 export const Context = createContext(INITIAL_STATE);
 
 export const ContextProvider = ({ children }) => {
     const [state, dispatch] = useReducer(Reducer, INITIAL_STATE);
+    const [locaState, Usedispatch] = useReducer(Reducer, INITIAL_STATE);
 
     useEffect(() => {
         localStorage.setItem("user", JSON.stringify(state.user));
     }, [state.user])
+
+    useEffect(() => {
+        localStorage.removeItem("user");
+    }, [locaState.user])
 
     return (
         <Context.Provider

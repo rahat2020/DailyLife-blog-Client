@@ -31,8 +31,6 @@ function Login() {
         title: 'Login Failed',
         text: 'Enter valid information',
       })
-      // alert("LOGIN FAILURE")
-
     }
   };
   console.log(user, isFetching)

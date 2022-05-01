@@ -73,7 +73,7 @@ const Navbar = () => {
                           alt=""
                         />
                       </Link>
-                      <i className="topSearchIcon fas fa-search"></i>
+                      {/* <i className="topSearchIcon fas fa-search"></i> */}
                     </ul>
                     :
                     <ul className="ms-2">

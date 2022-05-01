@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import Category from '../../components/Category/Category';
 import FetauredBlog from '../../components/FetauredBlog/FetauredBlog';
 import Header from '../../components/Header/Header';
 import OtherBlogs from '../../components/OtherBlogs/OtherBlogs';
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Category/>
       <FetauredBlog/>
       <div className="home">
         <div className="row">

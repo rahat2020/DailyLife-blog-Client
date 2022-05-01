@@ -27,6 +27,7 @@
 
 .featImgText{
     position: absolute;
+    top: 15.44em;
     left: 20px;
     bottom: 20px;
     justify-content:flex-start;
@@ -136,6 +137,9 @@
 
 /* responsive style */
 @media only screen and (max-width: 468px){
+    .featImgText{
+        top: 50px;
+    }
     .col-rgt{
         margin-top: 20px;
     }

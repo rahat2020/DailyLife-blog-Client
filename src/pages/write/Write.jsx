@@ -24,18 +24,18 @@ export default function Write() {
       data.append("file", file);
       newPost.photo = filename;
       try {
-          await axios.post("http://localhost:5000/api/upload", data);
+          await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/upload", data);
     
       } catch (err) {}
     }
     try {
-      const res = await axios.post("http://localhost:5000/api/posts", newPost);
+      const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/posts", newPost);
       res.data && Swal.fire({
         icon: 'success',
         title: 'Post Created Successfully',
         text: 'To See Home page',
       })
-      window.location.replace("/post/"+ res.data._id);
+      window.location.replace("/");
     } catch (err) {}
   };
   return (

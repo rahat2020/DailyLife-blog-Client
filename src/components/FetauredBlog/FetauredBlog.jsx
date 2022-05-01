@@ -9,6 +9,9 @@ import meditations from '../../img/meditations.jpeg';
 const FetauredBlog = () => {
     return (
         <section className="featured-container">
+            <div className="heading">
+                <h5 className="cat-head-title">Featured Blog</h5>
+            </div>
             <div data-aos="fade-up" className="row">
                 <div className="col-md-6">
                     <div className="col-lft-conatiner">
@@ -46,7 +49,7 @@ const FetauredBlog = () => {
                                     <img src={meditations} alt="" className="col-rgt-img" />
                                     <div className="col-rgt-text">
                                         <h3 className="col-rgt-title">
-                                           The importance of doing meditaions in our daily life in every conditions
+                                            The importance of doing meditaions in our daily life in every conditions
                                         </h3>
                                     </div>
                                 </div>

@@ -26,3 +26,6 @@ export const UpdateStart = (userCredentials) => ({
   export const UpdateFailure = () => ({
     type: "UPDATE_FAILURE",
   });
+  export const removeUser = () => ({
+    type: "REMOVE",
+  });

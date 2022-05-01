@@ -9,7 +9,7 @@ const OtherBlogPost = () => {
     const [isLike, setIsLikes] = useState(false);
     const [likes, setLikes] = useState(1)
     const { blogId } = useParams()
-    console.log(blogId)
+    // console.log(blogId)
 
     useEffect(() => {
         setSinglePost(PostData)

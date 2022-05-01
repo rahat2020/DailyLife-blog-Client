@@ -1,9 +1,9 @@
 .settings {
-  display: flex;
+  padding: 20px;
 }
 
 .settingsWrapper {
-  flex: 9;
+  /* flex: 9; */
   padding: 20px;
 }
 
@@ -20,9 +20,21 @@
 }
 
 .settingsDeleteTitle {
-  color: red;
+  color: #15c8fff5;
+  border: 1px solid #2eceffb4;
+  font-size: 12px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all .2s linear;
+}
+.settingsDeleteTitle:hover{
+  border: 1px solid red;
   font-size: 12px;
   cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  background-color: red;
 }
 
 .settingsForm {

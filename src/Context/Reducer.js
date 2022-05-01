@@ -41,6 +41,12 @@ const Reducer = (state, action) => {
                 isFetching: false,
                 error: false,
             };
+        case "REMOVE":
+            return {
+                user: null,
+                isFetching: false,
+                error: false,
+            };
         default:
             return state;
     }
