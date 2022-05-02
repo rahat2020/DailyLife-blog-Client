@@ -16,7 +16,7 @@ React in Front End and Node js and mongoose in Backend and Database. I've used b
 4) Edit
 5) Delete
 6) Image styled
-7) Latest Blogs
+<!-- 7) Latest Blogs -->
 8) Categories
 
 ## Technicals parts
@@ -34,3 +34,10 @@ In the project directory, you can run:
 ## Clone the project and 
 ### `npm start`
 
+
+things have to do tommorow
+1) git add .
+2) git commit -m ""
+3) git push 
+4) npm run build
+5) firebase deploy --only hosting:dailyblogs
