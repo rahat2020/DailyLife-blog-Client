@@ -8,6 +8,7 @@ const Navbar = () => {
   const [color, setColor] = useState(false)
   const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
   const { user, dispatch } = useContext(Context);
+  
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   }

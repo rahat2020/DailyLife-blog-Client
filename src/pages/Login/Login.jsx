@@ -10,11 +10,12 @@ function Login() {
   const passwordRef = useRef();
   const { user, dispatch, isFetching } = useContext(Context);
 
+  // const res = https://cryptic-castle-66347.herokuapp.com/https://shrouded-ravine-20668.herokuapp.com/api/auth/login
   const handleSubmit = async (e) => {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("https://cryptic-castle-66347.herokuapp.com/https://shrouded-ravine-20668.herokuapp.com/api/auth/login", {
+      const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
