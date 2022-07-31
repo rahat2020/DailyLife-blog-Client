@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"dailyblogs",
+    "site":"dailyblogs-38464",
     "public": "public",
     "ignore": [
       "firebase.json",
