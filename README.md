@@ -1,7 +1,7 @@
 # Getting Started with tthis projects
 
-This project  [Live link](https://dailyblogs-38464.web.app/).
-This Server  [Live link](https://github.com/rahat2020/DailyLife-Blog-Server).
+This is project  [Live link](https://dailyblogs-38464.web.app/).
+This is Server side code   [link](https://github.com/rahat2020/DailyLife-Blog-Server).
 
 ## Discriptions
 Daily Blogs is a website where you can read the all kind blogs such fashion, style, living, food and so on.
