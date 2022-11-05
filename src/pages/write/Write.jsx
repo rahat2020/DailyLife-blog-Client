@@ -24,12 +24,12 @@ export default function Write() {
       data.append("file", file);
       newPost.photo = filename;
       try {
-          await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/upload", data);
+          await axios.post("https://dailylife-blog.up.railway.app/api/upload", data);
     
       } catch (err) {}
     }
     try {
-      const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/posts", newPost);
+      const res = await axios.post("https://dailylife-blog.up.railway.app/api/posts", newPost);
       res.data && Swal.fire({
         icon: 'success',
         title: 'Post Created Successfully',

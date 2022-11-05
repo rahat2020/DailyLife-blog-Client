@@ -12,7 +12,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try{
-            const res = await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/auth/register", {
+            const res = await axios.post("https://dailylife-blog.up.railway.app/api/auth/register", {
                 username,
                 email,
                 password,

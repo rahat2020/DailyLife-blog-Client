@@ -13,14 +13,14 @@ function SinglePost() {
   const location = useLocation()
   // console.log(location.pathname.split('/')[2]) // to see the path name
   const path = location.pathname.split('/')[2];
-  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
+  const PF = "https://dailylife-blog.up.railway.app/images/";
   const { user } = useContext(Context)
 
   ///GETTING POSTS DATA FROM SERVER
   useEffect(() => {
     const getPost = async () => {
       // const res = await axios.get("http://localhost:5000/api/posts/" + path);
-      const res = await axios.get("https://shrouded-ravine-20668.herokuapp.com/api/posts/" + path);
+      const res = await axios.get("https://dailylife-blog.up.railway.app/api/posts/" + path);
       setPosts(res.data);
       setTitle(res.data.title);
       setDesc(res.data.desc);
@@ -31,7 +31,7 @@ function SinglePost() {
   // DELETE THE POST
   const handleDeletePost = async () => {
     try {
-    const res = await axios.delete(`https://shrouded-ravine-20668.herokuapp.com/api/posts/${post._id}`, {
+    const res = await axios.delete(`https://dailylife-blog.up.railway.app/api/posts/${post._id}`, {
         data: { username: user.username },
       });
       res.data && Swal.fire({
@@ -48,7 +48,7 @@ function SinglePost() {
   //UPDATE POST
   const handleUpdate = async () => {
     try {
-      const res = await axios.put(`https://shrouded-ravine-20668.herokuapp.com/api/posts/${post._id}`, {
+      const res = await axios.put(`https://dailylife-blog.up.railway.app/api/posts/${post._id}`, {
         username: user.username,
         title,
         desc,

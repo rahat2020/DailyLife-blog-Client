@@ -14,7 +14,7 @@ function Settings() {
   // const [success, setSuccess] = useState(false);
 
   const { user, dispatch } = useContext(Context);
-  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/"
+  const PF = "https://dailylife-blog.up.railway.app/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -32,11 +32,11 @@ function Settings() {
       data.append("file", file);
       updatedUser.profilePic = filename;
       try {
-        await axios.post("https://shrouded-ravine-20668.herokuapp.com/api/upload", data);
+        await axios.post("https://dailylife-blog.up.railway.app/api/upload", data);
       } catch (err) { }
     }
     try {
-      const res = await axios.put("https://shrouded-ravine-20668.herokuapp.com/api/users/" + user._id, updatedUser);
+      const res = await axios.put("https://dailylife-blog.up.railway.app/api/users/" + user._id, updatedUser);
       // setSuccess(true);
       res.data && Swal.fire({
         icon: 'success',
@@ -53,7 +53,7 @@ function Settings() {
   // DELTE USER
   const handleDelete = async () => {
     try {
-      const res = await axios.delete(`https://shrouded-ravine-20668.herokuapp.com/api/users/${user._id}`, {
+      const res = await axios.delete(`https://dailylife-blog.up.railway.app/api/users/${user._id}`, {
         data: { userId: user._id }
       })
       console.log('user deleted', res)

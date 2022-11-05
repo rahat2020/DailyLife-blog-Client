@@ -8,7 +8,7 @@ export default function Post({ img, post }) {
   useEffect(() => {
     AOS.init({ offset: 120, duration: 2000 });
   })
-  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
+  const PF = "https://dailylife-blog.up.railway.app/images/";
 
 
   return (

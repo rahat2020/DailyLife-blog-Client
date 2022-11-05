@@ -6,7 +6,7 @@ import logo from '../../img/logo.png'
 
 const Navbar = () => {
   const [color, setColor] = useState(false)
-  const PF = "https://shrouded-ravine-20668.herokuapp.com/images/";
+  const PF = "https://dailylife-blog.up.railway.app/images/";
   const { user, dispatch } = useContext(Context);
   
   const handleLogout = () => {

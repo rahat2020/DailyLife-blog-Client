@@ -14,7 +14,7 @@ export default function Home() {
   // console.log(location); 
   useEffect(() => {
     // const url = 'http://localhost:5000/api/posts'
-    const url = 'https://shrouded-ravine-20668.herokuapp.com/api/posts/'
+    const url = 'https://dailylife-blog.up.railway.app/api/posts/'
     console.log(url)
     fetch(url + search)
       .then(res => res.json())
